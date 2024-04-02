@@ -1,0 +1,145 @@
+:root {
+  --nav-text-primary: white;
+  --nav-bg-primary: black;
+  --nav-bg-secondary: grey;
+  --nav-text-secondary: black;
+  --text-primary: black;
+  --bg-primary: white;
+  --dropdown-icon: url('menu-white.png');
+  --xs: 250px;
+  --sm: 300px;
+  --md: 400px;
+  --lg: 600px;
+  --xl: 1000px;
+  --xxl: 1200px;
+}
+
+html {
+  box-sizing: border-box;
+  background-color : var(--bg-primary);
+  color: var(--text-primary);
+}
+
+html * {
+  box-sizing: inherit;
+}
+
+
+.widthXXL {
+  width : var(--xxl);
+  max-width : var(--xxl);
+}
+
+.widthXL {
+  width : var(--xl);
+  max-width: var(--xl);
+}
+
+.widthLg {
+  width : var(--lg);
+  max-width: var(--lg); 
+}
+
+.widthMd {
+  width: var(--md);
+  max-width: var(--md);
+}
+
+.widthSm {
+  width: var(--sm);
+  max-width: var(--sm);
+}
+
+.widthXS {
+  width: var(--xs);
+  max-width: var(--xs);
+}
+
+.widthFill {
+  width: 100%;
+}
+
+.heighthXXL {
+  height : var(--xxl);
+}
+
+.heightXL {
+  height: var(--xl);
+}
+
+.heightLg {
+  height: var(--lg); 
+}
+
+.heightMd {
+  height: var(--md);
+}
+
+.heightSm {
+  height: var(--sm);
+}
+
+.heightXS {
+ height: var(--xs);
+}
+
+.heightFill {
+  height: 100%;
+}
+
+.dualXXL {
+  height : var(--xxl);
+  width: var(--xxl);
+  max-width: var(--xxl);
+}
+
+.dualXL {
+  height: var(--xl);
+  width: var(--xl);
+  max-width: var(--xl);
+}
+
+.dualLg {
+  height: var(--lg); 
+  width: var(--lg);
+  max-width: var(--lg);
+}
+
+.dualMd {
+  height: var(--md);
+  width: var(--md);
+  max-width: var(--md);
+}
+
+.dualSm {
+  height: var(--sm);
+  width: var(--sm);
+  max-width: var(--sm);
+}
+
+.dualXS {
+ height: var(--xs);
+ width: var(--xs);
+ max-width: var(--xs);
+}
+
+.dualFill {
+  height: 100%;
+  width: 100%;
+}
+
+/*
+z-index tracking {
+
+}
+
+Components to make:
+-Modal
+-Tooltip
+-Accordian/Drawer
+-Date input
+-Loader
+-Badge
+-Rating
+-Snackbar (use from Wordle Clone)
+*/
